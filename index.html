@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oderisi — Informativa sulla privacy / Privacy policy</title>
+<style>
+:root { --paper: #F6F2EA; --ink: #1F1B16; --muted: #6B6256; --gilt: #9A7330; }
+@media (prefers-color-scheme: dark) { :root { --paper: #121110; --ink: #EEE7DA; --muted: #A99F90; --gilt: #D6B062; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1, h2 { font-family: "New York", Georgia, "Times New Roman", serif; font-weight: 600; line-height: 1.25; }
+h1 { font-size: 30px; margin: 0 0 4px; }
+h2 { font-size: 24px; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--gilt); }
+.updated { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+nav a { margin-right: 16px; }
+a { color: var(--gilt); }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Oderisi — Informativa sulla privacy / Privacy policy</h1>
+<p class="updated">Ultimo aggiornamento / Last updated: 22/11/2026</p>
+<nav><a href="#it">Italiano</a><a href="#en">English</a></nav>
+<h2 id="it">Italiano</h2>
+<p><strong>Titolare del trattamento:</strong> Alessandro, sviluppatore di Oderisi, <a href="mailto:dantexiv@proton.me">dantexiv@proton.me</a>. Per qualsiasi domanda o richiesta sui tuoi dati scrivi a questo indirizzo.</p>
+<p><strong>In breve:</strong></p>
+<ul><li>Oderisi non ha account e non ha un server con la tua collezione.</li><li>Escono dall'iPhone solo le foto delle opere che scegli di riconoscere online, e solo per avere la risposta.</li></ul>
+<p><strong>Sul tuo iPhone.</strong> Collezione, foto, valutazioni, note, preferiti e cronologia dei riconoscimenti restano sul tuo iPhone. I backup sono file che scegli tu dove salvare (e, se lo attivi, il tuo iCloud, gestito da Apple).</p>
+<p><strong>Riconoscimento online.</strong> È acceso di default; puoi spegnerlo in Impostazioni › Intelligenza artificiale. Quando analizzi un'opera:</p>
+<ul><li>le foto dell'analisi (fronte, firma, retro) vanno al nostro gateway AI (<strong>Charon</strong>, su Cloudflare) e da lì a un fornitore di modelli AI (oggi <strong>OpenRouter</strong>, con modelli di <strong>Anthropic</strong> e <strong>Google</strong>), solo per ottenere la risposta;</li><li>i <strong>ritagli della firma</strong> vengono letti anche da un secondo modello, per confermarla;</li><li>la foto del <strong>fronte</strong> viene cercata sul web con <strong>Google Cloud Vision</strong>, per trovare la stessa opera online (aste, vendite, musei).</li></ul>
+<p>I fornitori possono trattare i dati negli <strong>Stati Uniti</strong>. Le foto non vengono conservate né usate per addestrare modelli: le richieste a OpenRouter escludono la raccolta di dati. Charon registra solo dati tecnici (data, esito, durata, un identificativo casuale dell'installazione) e un contatore per i limiti mensili di riconoscimenti, mai le foto. Con il riconoscimento online spento nessuna foto lascia l'iPhone.</p>
+<p><strong>Esplora e biografie.</strong> Per mostrarti artisti, opere e musei l'app consulta servizi pubblici:</p>
+<ul><li><strong>Wikipedia, Wikidata, Wikimedia Commons</strong> e <strong>RKD</strong>, a cui invia i nomi o gli identificativi cercati. Come ogni sito, questi servizi vedono l'indirizzo IP;</li><li>se una biografia esiste solo in un'altra lingua, il <strong>testo pubblico</strong> della biografia viene tradotto tramite Charon (mai dati tuoi).</li></ul>
+<p><strong>Posizione.</strong></p>
+<ul><li><strong>"Vicino a te"</strong>, solo se lo attivi: la posizione è confrontata sul tuo iPhone con l'elenco dei musei dell'app e non viene inviata a noi.</li><li><strong>Foto dalla libreria</strong> con dati GPS: per proporre il luogo, le coordinate sono convertite in un nome di luogo dal servizio di geocodifica di <strong>Apple</strong>.</li></ul>
+<p><strong>Mai.</strong> Nome, contatti, il resto della collezione e le tue valutazioni non lasciano l'iPhone. Nessun tracciamento, nessuna pubblicità, nessuna vendita di dati.</p>
+<p><strong>Cancellazione e diritti.</strong></p>
+<ul><li><strong>Cancellare:</strong> eliminando l'app o la collezione cancelli tutti i dati sul telefono. Su Charon resta solo il contatore tecnico, legato a un identificativo casuale.</li><li><strong>I tuoi diritti:</strong> hai i diritti previsti dal GDPR (accesso, cancellazione, opposizione, reclamo all'autorità di controllo). Per esercitarli scrivi al titolare.</li></ul>
+<h2 id="en">English</h2>
+<p><strong>Data controller:</strong> Alessandro, developer of Oderisi, <a href="mailto:dantexiv@proton.me">dantexiv@proton.me</a>. Write to this address with any question or request about your data.</p>
+<p><strong>In short:</strong></p>
+<ul><li>Oderisi has no accounts and no server holding your collection.</li><li>Only the photos of the artworks you choose to recognise online leave your iPhone, and only to get the answer.</li></ul>
+<p><strong>On your iPhone.</strong> Your collection, photos, valuations, notes, favourites and recognition history stay on your iPhone. Backups are files you choose where to keep (and, if you turn it on, your iCloud, run by Apple).</p>
+<p><strong>Online recognition.</strong> It is on by default; you can turn it off in Settings › Artificial intelligence. When you analyse an artwork:</p>
+<ul><li>the photos of the analysis (front, signature, back) go to our AI gateway (<strong>Charon</strong>, on Cloudflare) and from there to an AI model provider (today <strong>OpenRouter</strong>, with models by <strong>Anthropic</strong> and <strong>Google</strong>), only to get the answer;</li><li>the <strong>signature crops</strong> are also read by a second model, to confirm it;</li><li>the photo of the <strong>front</strong> is looked for on the web with <strong>Google Cloud Vision</strong>, to find the same artwork online (auctions, sales, museums).</li></ul>
+<p>Providers may process data in the <strong>United States</strong>. Photos are not kept and not used to train models: requests to OpenRouter exclude data collection. Charon logs only technical data (date, outcome, duration, a random installation id) and a counter for the monthly recognition limits, never the photos. With online recognition off, no photo leaves the iPhone.</p>
+<p><strong>Explore and biographies.</strong> To show you artists, works and museums the app queries public services:</p>
+<ul><li><strong>Wikipedia, Wikidata, Wikimedia Commons</strong> and <strong>RKD</strong>, sending them the names or identifiers looked up. Like any website, these services see your IP address;</li><li>when a biography exists only in another language, its <strong>public text</strong> is translated through Charon (never your data).</li></ul>
+<p><strong>Location.</strong></p>
+<ul><li><strong>"Near you"</strong>, only if you turn it on: your position is compared on your iPhone with the app's list of museums and is not sent to us.</li><li><strong>Library photos</strong> with GPS data: to suggest the place, the coordinates are turned into a place name by <strong>Apple's</strong> geocoding service.</li></ul>
+<p><strong>Never.</strong> Your name, contacts, the rest of your collection and your valuations do not leave the iPhone. No tracking, no advertising, no sale of data.</p>
+<p><strong>Deletion and rights.</strong></p>
+<ul><li><strong>Deleting:</strong> deleting the app or the collection removes all data on the phone. Charon keeps only the technical counter, tied to a random id.</li><li><strong>Your rights:</strong> you have the rights granted by the GDPR (access, erasure, objection, complaint to the supervisory authority). To exercise them, write to the data controller.</li></ul>
+</main>
+</body>
+</html>
